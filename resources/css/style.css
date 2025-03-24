@@ -25,7 +25,10 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {zoom: 1;}
+.clearfix {
+    zoom: 1;
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -128,7 +131,7 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -147,7 +150,8 @@ a:visited {
     transition: border-bottom 0.2s, color 0.2s;
 }
 
-.projects:link, .projects:visited {
+.projects:link,
+.projects:visited {
     color: #555;
     border-bottom: none;
 }
@@ -158,7 +162,8 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-.projects:hover, .projects:active {
+.projects:hover,
+.projects:active {
     color: #e67e22;
     border-bottom: 1px solid #e67e22;
 }
@@ -308,9 +313,9 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav { 
-    margin-top: 18px; 
-    padding-bottom: 20px; 
+.sticky .main-nav {
+    margin-top: 18px;
+    padding-bottom: 20px;
 }
 
 .sticky .main-nav li a:link,
@@ -319,8 +324,13 @@ header {
     color: #555;
 }
 
-.sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
 
 /* ----------------------------------------------- */
 /* FEATURES */
@@ -585,7 +595,9 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none;}
+*:focus {
+    outline: none;
+}
 
 
 /* ----------------------------------------------- */
@@ -621,7 +633,7 @@ footer {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
@@ -687,8 +699,7 @@ footer p {
 
 .js--wp-1,
 .js--wp-2,
-.js--wp-3
-{
+.js--wp-3 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -704,5 +715,3 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
-
-
